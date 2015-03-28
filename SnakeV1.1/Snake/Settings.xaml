@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProgramSnake.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings" Height="271" Width="251">
+    <Grid Margin="0,0,2,2" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="185*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Settings" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontFamily="Showcard Gothic" FontSize="36" Width="200" Height="55" Grid.Column="1"/>
+        <Label Content="Speed of Snake" HorizontalAlignment="Left" Margin="27,97,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.289,-1.308" Height="32" Width="147" Grid.Column="1" FontFamily="Showcard Gothic" FontSize="18" Cursor="Hand">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="6.71"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-4.924"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Slider x:Name="SnakeSpeed" HorizontalAlignment="Left" Margin="27,134,0,0" VerticalAlignment="Top" Width="153" Height="25" Grid.Column="1" RenderTransformOrigin="0.529,1.529" OpacityMask="#FFF0F0F0" Foreground="#FFB29C9C" BorderBrush="#FFBB1111" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Minimum="1" Value="5" SmallChange="1" ValueChanged="SnakeSpeed_ValueChanged"/>
+        <Button x:Name="ApplySettingButton" Content="Apply" HorizontalAlignment="Left" Margin="120,179,0,0" VerticalAlignment="Top" Width="75" Height="20" Grid.Column="1" Click="ApplySettingButton_Click"/>
+        <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top" Width="75" Height="20" Background="#FFC1C1C1" IsCancel="True" Grid.Column="1" Click="CancelButton_Click"/>
+
+    </Grid>
+</Window>

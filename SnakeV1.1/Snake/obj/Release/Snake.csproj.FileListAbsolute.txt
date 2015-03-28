@@ -1,0 +1,14 @@
+S:\MyCode\SnakeV1.1\Snake\bin\Release\Snake.exe.config
+S:\MyCode\SnakeV1.1\Snake\bin\Release\Snake.exe
+S:\MyCode\SnakeV1.1\Snake\bin\Release\Snake.pdb
+S:\MyCode\SnakeV1.1\Snake\obj\Release\MainWindow.baml
+S:\MyCode\SnakeV1.1\Snake\obj\Release\Settings.baml
+S:\MyCode\SnakeV1.1\Snake\obj\Release\MainWindow.g.cs
+S:\MyCode\SnakeV1.1\Snake\obj\Release\Settings.g.cs
+S:\MyCode\SnakeV1.1\Snake\obj\Release\App.g.cs
+S:\MyCode\SnakeV1.1\Snake\obj\Release\Snake_MarkupCompile.cache
+S:\MyCode\SnakeV1.1\Snake\obj\Release\Snake.g.resources
+S:\MyCode\SnakeV1.1\Snake\obj\Release\ProgramSnake.Properties.Resources.resources
+S:\MyCode\SnakeV1.1\Snake\obj\Release\Snake.csproj.GenerateResource.Cache
+S:\MyCode\SnakeV1.1\Snake\obj\Release\Snake.exe
+S:\MyCode\SnakeV1.1\Snake\obj\Release\Snake.pdb
